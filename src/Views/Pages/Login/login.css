@@ -1,0 +1,47 @@
+.loginBG {
+    width: 100vw;
+    height: 105vh;
+    background: url('../../../images/programmer_online_1.jpg');
+    background-size:2000px;
+    background-position: 0%;
+    grid-column: 1/2;
+    margin-bottom: -10px;
+    background-color: rgba(0, 0, 0, 0.350);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.login-panel {
+    background-color: var(--prim-color);
+    width: 30vw;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 25vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-panel h1 {
+    width: 100vw;
+}
+
+.login-panel input {
+    width: 18vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: none;
+    margin: 6px;
+    padding-left: 5px;
+
+}
+
+.loginButton {
+    width: 100vw;
+    height: 5vh;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 5px;
+}
